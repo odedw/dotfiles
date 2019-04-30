@@ -40,7 +40,7 @@ alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 #dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
 
 # Git
-alias gc="git add . && git commit -m"
+alias gc="git add . && git commit -m "
 #alias gcommit="git add . && git commit"
 #alias wip="commit wip"
 alias gs="git status"
@@ -48,4 +48,8 @@ alias gb="git branch"
 #alias gc="git checkout"
 alias gd="git diff"
 alias gl="git log --oneline --decorate --color"
+alias gp="git push"
+alias gpb="git push -u origin "
+alias gnb="git checkout -b "
+alias gpl="git pull"
 #alias gnuke="git clean -df && git reset --hard"
