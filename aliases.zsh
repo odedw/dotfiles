@@ -53,3 +53,5 @@ alias gpb="git push -u origin "
 alias gnb="git checkout -b "
 alias gpl="git pull"
 #alias gnuke="git clean -df && git reset --hard"
+
+alias awslogin="java -jar ~/dev/ssogenerator-2.0.3.jar"

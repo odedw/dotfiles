@@ -16,3 +16,4 @@ export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 
 # Local bin directories before anything else
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
